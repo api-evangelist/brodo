@@ -1,7 +1,24 @@
 aid: brodo
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/brodo.png
 name: Brodo
-description: Brodo is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Brodo (PT Brodo Ganesha Indonesia) is an Indonesian direct-to-consumer footwear
+  and menswear brand founded in Bandung, selling shoes, apparel, and accessories through its
+  official webstore at bro.do. It was surfaced as a 500 Global portfolio company and added to
+  the API Evangelist network. Brodo runs a consumer e-commerce storefront on a third-party
+  commerce platform (Plugo) with local Indonesian payment rails (NicePay); it publishes no
+  first-party developer API, OpenAPI, developer portal, SDK, or public integration surface at
+  this time, so there are no API artifacts to enrich beyond this company profile.
 url: https://raw.githubusercontent.com/api-evangelist/brodo/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +28,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- E-Commerce
+- Retail
+- Footwear
+- Fashion
+- Consumer Brand
+- Direct-to-Consumer
+- Indonesia
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +47,10 @@ maintainers:
 common:
 - type: Website
   url: https://bro.do
+- type: Support
+  url: https://bro.do/pages/contact
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
